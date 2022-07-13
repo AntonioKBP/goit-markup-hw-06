@@ -494,9 +494,9 @@
         </div>
         <div class="footer-subscribe">
           <p class="subscribe-text">ПОДПИШИТЕСЬ НА РАССЫЛКУ</p>
-          <div class="subscribe-flex">
-            <!-- <div class="footer-form-field"> -->
-            <!-- <label class="footer-label" for="footer-email"></label> -->
+
+          <form class="subsribe-form" name="subscribtion" autocomplete="on">
+            <label class="visually-hidden" for="subscribtion-email">E-mail</label>
             <input
               class="footer-input"
               id="footer-email"
@@ -504,13 +504,12 @@
               name="email"
               placeholder="E-mail"
             />
-            <!-- </div> -->
             <button class="button footer-btn">
-              Подписаться<svg class="subscribe-icon" width="24px" height="24" aria-hidden="true">
+              Подписаться<svg class="subscribe-icon" width="24" height="24" aria-hidden="true">
                 <use href="./images/main/icons.svg#telegram-icon"></use>
               </svg>
             </button>
-          </div>
+          </form>
         </div>
       </div>
     </footer>
