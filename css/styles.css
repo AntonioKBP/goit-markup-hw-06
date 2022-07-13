@@ -515,10 +515,6 @@ ul {
 
 /* footer social */
 
-.footer-socials {
-  margin-right: 93px;
-}
-
 .join-us {
   font-weight: 700;
   font-size: 14px;
@@ -569,6 +565,10 @@ ul {
 }
 
 /* footer subscribe */
+.footer-subscribe {
+  margin-left: auto;
+}
+
 .subscribe-text {
   font-weight: 700;
   font-size: 14px;
@@ -597,6 +597,11 @@ ul {
 .subscribe-icon {
   fill: var(--white-color);
   margin-left: 10px;
+}
+.footer-btn {
+  display: flex;
+  align-items: center;
+  width: 200px;
 }
 
 /* Portfolio section */
