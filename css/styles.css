@@ -672,6 +672,7 @@ ul {
   padding: 6px 22px;
   transition: background-color 250ms var(--cubik-timings), color 250ms var(--cubik-timings);
   border: 0;
+  outline: none;
 }
 
 .portfolio-button:hover,
@@ -694,6 +695,7 @@ ul {
 .portfolio-link {
   display: block;
   text-decoration: none;
+  outline: none;
 }
 
 .portfolio-link:hover,
@@ -859,6 +861,12 @@ ul {
   margin-bottom: 12px;
 }
 
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .form-field-label {
   display: block;
   font-weight: 400;
@@ -875,14 +883,37 @@ ul {
   width: 100%;
   height: 40px;
   color: var(--text-color-black);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.01em;
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  outline: none;
   padding: 12px 12px 12px 42px;
+  transition: border 250ms var(--cubik-timings);
+}
+
+.form-field-input:focus {
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+}
+
+.form-field-input:focus + .modal-icon {
+  fill: var(--accent-color);
 }
 
 .form-field {
   margin-bottom: 10px;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+.form-field:last-child {
+  margin-bottom: 30px;
 }
 
 .form-field-inner {
@@ -911,6 +942,10 @@ ul {
   color: rgba(117, 117, 117, 0.5);
 }
 
+.margin-for-textarea {
+  margin-bottom: 20px;
+}
+
 .term-conditions {
   font-weight: 400;
   font-size: 14px;
@@ -922,7 +957,6 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-
   width: 200px;
   height: 50px;
   padding: 0;
