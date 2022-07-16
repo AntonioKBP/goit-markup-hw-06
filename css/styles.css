@@ -948,6 +948,29 @@ ul {
 }
 
 /* checkbox start */
+.checkbox-control {
+  position: relative;
+}
+
+.checkbox-border-icon {
+  position: absolute;
+  left: 0;
+  opacity: 1;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.checkbox-check-icon {
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.checkbox-input:checked + .checkbox-check-icon {
+  opacity: 1;
+}
 
 .checkbox-label {
   font-weight: 400;
