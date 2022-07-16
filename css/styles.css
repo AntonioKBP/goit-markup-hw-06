@@ -884,6 +884,7 @@ ul {
 .form-field-input {
   height: 40px;
   color: var(--text-color-black);
+  width: 100%;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
@@ -906,6 +907,10 @@ ul {
 }
 
 .form-field {
+  width: 100%;
+  font-size: 16px;
+  line-height: 1.125;
+  margin-bottom: 20px;
   margin-bottom: 10px;
 }
 
