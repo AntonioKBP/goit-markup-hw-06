@@ -925,7 +925,7 @@ ul {
   left: 15px;
   top: 50%;
   transform: translateY(-50%);
-  transition: border 250ms var(--cubik-timings), fill 250ms var();
+  transition: border 250ms var(--cubik-timings), fill 250ms var(--cubik-timings);
 }
 
 .form-field-textarea {
@@ -947,6 +947,8 @@ ul {
   margin-bottom: 20px;
 }
 
+/* checkbox start */
+
 .checkbox-label {
   font-weight: 400;
   font-size: 14px;
@@ -957,6 +959,8 @@ ul {
 .terms-conditions-link {
   color: var(--accent-color);
 }
+
+/* checkbox finish */
 
 .modal-button {
   display: flex;
