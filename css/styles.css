@@ -925,6 +925,7 @@ ul {
   left: 15px;
   top: 50%;
   transform: translateY(-50%);
+  transition: border 250ms var(--cubik-timings), fill 250ms var();
 }
 
 .form-field-textarea {
