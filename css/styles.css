@@ -947,11 +947,15 @@ ul {
   margin-bottom: 20px;
 }
 
-.term-conditions {
+.checkbox-label {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: var(--text-color-gray);
+}
+
+.terms-conditions-link {
+  color: var(--accent-color);
 }
 
 .modal-button {
