@@ -836,6 +836,12 @@ ul {
   fill: var(--absolute-black);
   border-radius: 50%;
   cursor: pointer;
+  transition: fill 250ms var(--cubik-timings);
+}
+
+.modal-close-button:hover,
+.modal-close-button:focus {
+  fill: var(--accent-color);
 }
 
 .is-hidden {
@@ -956,6 +962,7 @@ ul {
 /* checkbox start */
 .checkbox-control {
   position: relative;
+  margin-bottom: 30px;
 }
 
 .checkbox-border-icon {
