@@ -527,8 +527,8 @@
             <div class="form-field">
               <label class="form-field-label" for="modal-name">Имя</label>
               <div class="form-field-inner">
-                <input class="form-field-input" id="modal-name" type="text" />
-                <svg class="modal-icon" width="12" height="12" aria-hidden="true">
+                <input class="form-field-input" id="modal-name" type="text" name="name" />
+                <svg class="modal-icon" width="18" height="18" aria-hidden="true">
                   <use href="./images/main/icons.svg#modal-user-icon"></use>
                 </svg>
               </div>
@@ -536,8 +536,8 @@
             <div class="form-field">
               <label class="form-field-label" for="modal-telephone">Телефон</label>
               <div class="form-field-inner">
-                <input class="form-field-input" id="modal-telephone" type="tel" />
-                <svg class="modal-icon" width="12" height="12" aria-hidden="true">
+                <input class="form-field-input" id="modal-telephone" type="tel" name="telephone" />
+                <svg class="modal-icon" width="18" height="18" aria-hidden="true">
                   <use href="./images/main/icons.svg#modal-phone-icon"></use>
                 </svg>
               </div>
@@ -545,8 +545,8 @@
             <div class="form-field">
               <label class="form-field-label" for="modal-email">Почта</label>
               <div class="form-field-inner">
-                <input class="form-field-input" id="modal-email" type="email" />
-                <svg class="modal-icon" width="15" height="12" aria-hidden="true">
+                <input class="form-field-input" id="modal-email" type="email" name="email" />
+                <svg class="modal-icon" width="18" height="18" aria-hidden="true">
                   <use href="./images/main/icons.svg#modal-email-icon"></use>
                 </svg>
               </div>
@@ -569,7 +569,7 @@
                   class="checkbox-input visually-hidden"
                   id="term"
                   type="checkbox"
-                  name=""
+                  name="terms agreement"
                 /><svg class="checkbox-border-icon" width="16" height="15" aria-hidden="true">
                   <use href="./images/main/icons.svg#checkbox-border"></use>
                 </svg>
@@ -588,4 +588,3 @@
     <script src="./js/modal.js"></script>
   </body>
 </html>
-<label for="checkbox" class="form-agreement-label"></label>

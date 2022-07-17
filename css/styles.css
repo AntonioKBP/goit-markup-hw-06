@@ -372,7 +372,7 @@ ul {
   border-radius: 50%;
   text-decoration: none;
   color: var(--icons-color-main);
-  transition: background-color 250ms var(--cubik-timings), color 250ms var(--cubik-timings);
+  transition: background-color 250ms var(--cubik-timings), fill 250ms var(--cubik-timings);
 }
 
 .team-social-item {
